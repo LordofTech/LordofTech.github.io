@@ -1,13 +1,3 @@
-/* Profile Image */
-.profile-img {
-    display: block;
-    width: 150px; /* Adjust size as needed */
-    height: auto;
-    border-radius: 50%; /* Makes it circular */
-    margin: 0 auto 20px; /* Centers the image */
-    border: 3px solid #28a745; /* Green border */
-}
-
 /* General Reset */
 * {
     margin: 0;
@@ -22,6 +12,17 @@ body {
     color: #000; /* Change all white text to black */
     font-weight: bold; /* Make all text bold */
     padding: 20px;
+}
+
+/* Centered Content Box */
+.content-box {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto; /* Centers the box */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Transparent white */
+    border-radius: 10px;
+    text-align: center;
 }
 
 /* Header */
@@ -41,7 +42,35 @@ header p {
     font-size: 18px;
     opacity: 1; /* Ensure text is fully visible */
     color: #000; /* Black for subtext */
-    font-weight: bold; /* Make text bold */
+    font-weight: bold;
+}
+
+/* Profile Image */
+.profile-img {
+    display: block;
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%; /* Makes it circular */
+    margin: 0 auto 20px; /* Centers the image */
+    border: 3px solid #28a745; /* Green border */
+}
+
+/* About Me & Skills Sections */
+#skills, #about {
+    text-align: center;
+    width: 80%; /* Adjust width to keep content readable */
+    margin: 0 auto; /* Center the section */
+}
+
+#skills ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
 }
 
 /* Projects Section */
@@ -76,35 +105,17 @@ header p {
     margin-bottom: 10px;
     opacity: 1; /* Ensure text is fully visible */
     color: #000; /* Black for subtext */
-    font-weight: bold; /* Make text bold */
-}
-
-/* Skills & About Me Sections - Center Justified */
-#skills, #about {
-    text-align: center;
-    width: 80%; /* Adjust width to keep content readable */
-    margin: 0 auto; /* Center the section */
-}
-
-#skills ul {
-    list-style: none; /* Remove default bullet points */
-    padding: 0;
-}
-
-#skills li {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
+    font-weight: bold;
 }
 
 /* Links */
-.project a {
+#contact a, .project a {
     color: #1e90ff;
     text-decoration: none;
     font-weight: bold;
 }
 
-.project a:hover {
+#contact a:hover, .project a:hover {
     text-decoration: underline;
     color: #ff6347;
 }
@@ -115,5 +126,5 @@ footer {
     margin-top: 40px;
     padding: 20px;
     background: rgba(255, 255, 255, 0.1);
-    font-weight: bold; /* Make footer text bold */
+    font-weight: bold;
 }
