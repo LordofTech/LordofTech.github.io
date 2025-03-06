@@ -1,3 +1,13 @@
+.profile-img {
+    display: block;
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%; /* Makes it circular */
+    margin: 0 auto 20px; /* Centers the image */
+    border: 3px solid #28a745; /* Green border */
+}
+
+
 /* General Reset */
 * {
     margin: 0;
