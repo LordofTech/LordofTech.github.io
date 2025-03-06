@@ -19,7 +19,8 @@
 body {
     background: url('images/arthurchukwurah.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: #fff;
+    color: #000; /* Change all white text to black */
+    font-weight: bold; /* Make all text bold */
     padding: 20px;
 }
 
@@ -38,8 +39,9 @@ header h1 {
 
 header p {
     font-size: 18px;
-    opacity: 0.8;
+    opacity: 1; /* Ensure text is fully visible */
     color: #000; /* Black for subtext */
+    font-weight: bold; /* Make text bold */
 }
 
 /* Projects Section */
@@ -72,8 +74,9 @@ header p {
 .project p {
     font-size: 16px;
     margin-bottom: 10px;
-    opacity: 0.9;
+    opacity: 1; /* Ensure text is fully visible */
     color: #000; /* Black for subtext */
+    font-weight: bold; /* Make text bold */
 }
 
 /* Links */
@@ -94,4 +97,5 @@ footer {
     margin-top: 40px;
     padding: 20px;
     background: rgba(255, 255, 255, 0.1);
+    font-weight: bold; /* Make footer text bold */
 }
