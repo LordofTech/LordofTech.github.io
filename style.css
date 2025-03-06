@@ -79,6 +79,24 @@ header p {
     font-weight: bold; /* Make text bold */
 }
 
+/* Skills & About Me Sections - Center Justified */
+#skills, #about {
+    text-align: center;
+    width: 80%; /* Adjust width to keep content readable */
+    margin: 0 auto; /* Center the section */
+}
+
+#skills ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
 /* Links */
 .project a {
     color: #1e90ff;
